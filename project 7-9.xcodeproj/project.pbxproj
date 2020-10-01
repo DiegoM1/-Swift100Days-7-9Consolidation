@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79A5C52924F467150034A2B9 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79A5C52824F467150034A2B9 /* start.txt */; };
 		79E3C9EF24F462FF00422847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C9EE24F462FF00422847 /* AppDelegate.swift */; };
 		79E3C9F124F462FF00422847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C9F024F462FF00422847 /* SceneDelegate.swift */; };
-		79E3C9F324F462FF00422847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C9F224F462FF00422847 /* ViewController.swift */; };
+		79E3C9F324F462FF00422847 /* game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C9F224F462FF00422847 /* game.swift */; };
 		79E3C9F624F462FF00422847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E3C9F424F462FF00422847 /* Main.storyboard */; };
 		79E3C9F824F4630400422847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E3C9F724F4630400422847 /* Assets.xcassets */; };
 		79E3C9FB24F4630400422847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E3C9F924F4630400422847 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79A5C52824F467150034A2B9 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		79E3C9EB24F462FF00422847 /* project 7-9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project 7-9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E3C9EE24F462FF00422847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79E3C9F024F462FF00422847 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79E3C9F224F462FF00422847 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79E3C9F224F462FF00422847 /* game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game.swift; sourceTree = "<group>"; };
 		79E3C9F524F462FF00422847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79E3C9F724F4630400422847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79E3C9FA24F4630400422847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,10 +60,11 @@
 			children = (
 				79E3C9EE24F462FF00422847 /* AppDelegate.swift */,
 				79E3C9F024F462FF00422847 /* SceneDelegate.swift */,
-				79E3C9F224F462FF00422847 /* ViewController.swift */,
+				79E3C9F224F462FF00422847 /* game.swift */,
 				79E3C9F424F462FF00422847 /* Main.storyboard */,
 				79E3C9F724F4630400422847 /* Assets.xcassets */,
 				79E3C9F924F4630400422847 /* LaunchScreen.storyboard */,
+				79A5C52824F467150034A2B9 /* start.txt */,
 				79E3C9FC24F4630400422847 /* Info.plist */,
 			);
 			path = "project 7-9";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E3C9FB24F4630400422847 /* LaunchScreen.storyboard in Resources */,
+				79A5C52924F467150034A2B9 /* start.txt in Resources */,
 				79E3C9F824F4630400422847 /* Assets.xcassets in Resources */,
 				79E3C9F624F462FF00422847 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79E3C9F324F462FF00422847 /* ViewController.swift in Sources */,
+				79E3C9F324F462FF00422847 /* game.swift in Sources */,
 				79E3C9EF24F462FF00422847 /* AppDelegate.swift in Sources */,
 				79E3C9F124F462FF00422847 /* SceneDelegate.swift in Sources */,
 			);
